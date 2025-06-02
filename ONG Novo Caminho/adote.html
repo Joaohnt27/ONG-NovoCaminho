@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONG Novo Caminho | Adoção</title>
+    <link rel="icon" href="Logo-removebg-preview.png" />
+    <link rel="stylesheet" href="adote.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header>
+      <div class="logo">
+        <img src="Logo-removebg-preview.png" alt="Logo ONG" class="logo-img" />
+      </div>
+      <i id="menu-icon" class="fas fa-bars"></i>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="index.html#sobre">Sobre</a></li>
+          <li><a href="#adote" class="active">Adote</a></li>
+          <li><a href="index.html#como-ajudar">Como Ajudar</a></li>
+        </ul>
+      </nav>
+
+      <a href="doacao.html" class="doar">Doe agora</a>
+    </header>
+
+    <main>
+      <h1>Animais para adoção</h1>
+      <div class="filtros">
+        <button id="btn-caes" class="ativo">Cães</button>
+        <button id="btn-gatos">Gatos</button>
+      </div>
+
+      <section class="galeria">
+        <!-- Cães -->
+        <div class="card animal cao">
+          <img src="dog1.jpeg" alt="Carioca" />
+          <div class="info-hover">
+            <h2>Filhote 1</h2>
+            <p>
+              Esse pequeno ainda está descobrindo o mundo, cheio de ternura,
+              alegria e muita vontade de brincar. Sem nome ainda, mas com muito
+              amor para dar! Ele sonha em encontrar uma família que cuide,
+              proteja e ofereça carinho para toda a vida. Se você quer um amigo
+              leal que vai encher sua casa de risadas e momentos especiais, esse
+              filhote é a escolha perfeita!
+            </p>
+            <div class="icones">
+              <a href="#" class="btn-lupa" onclick="abrirLightbox(this)">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="form-adocao.html" class="btn-lupa"
+                ><i class="fa-solid fa-paw"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card animal cao">
+          <img src="dog2.jpeg" alt="Cachorro 2" />
+          <div class="info-hover">
+            <h2>Filhote 2</h2>
+            <p>
+              Esse pequeno ainda está descobrindo o mundo, cheio de ternura,
+              alegria e muita vontade de brincar. Sem nome ainda, mas com muito
+              amor para dar! Ele sonha em encontrar uma família que cuide,
+              proteja e ofereça carinho para toda a vida. Se você quer um amigo
+              leal que vai encher sua casa de risadas e momentos especiais, esse
+              filhote é a escolha perfeita!
+            </p>
+            <div class="icones">
+              <a href="#" class="btn-lupa" onclick="abrirLightbox(this)">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="form-adocao.html" class="btn-lupa"
+                ><i class="fa-solid fa-paw"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card animal cao">
+          <img src="dog3.jpeg" alt="Cachorro 3" />
+          <div class="info-hover">
+            <h2>Filhote 3</h2>
+            <p>
+              Esse pequeno ainda está descobrindo o mundo, cheio de ternura,
+              alegria e muita vontade de brincar. Sem nome ainda, mas com muito
+              amor para dar! Ele sonha em encontrar uma família que cuide,
+              proteja e ofereça carinho para toda a vida. Se você quer um amigo
+              leal que vai encher sua casa de risadas e momentos especiais, esse
+              filhote é a escolha perfeita!
+            </p>
+            <div class="icones">
+              <a href="#" class="btn-lupa" onclick="abrirLightbox(this)">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="form-adocao.html" class="btn-lupa"
+                ><i class="fa-solid fa-paw"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card animal cao">
+          <img src="dog4.jpeg" alt="Cachorro 4" />
+          <div class="info-hover">
+            <h2>Filhote 4</h2>
+            <p>
+              Esse pequeno ainda está descobrindo o mundo, cheio de ternura,
+              alegria e muita vontade de brincar. Sem nome ainda, mas com muito
+              amor para dar! Ele sonha em encontrar uma família que cuide,
+              proteja e ofereça carinho para toda a vida. Se você quer um amigo
+              leal que vai encher sua casa de risadas e momentos especiais, esse
+              filhote é a escolha perfeita!
+            </p>
+            <div class="icones">
+              <a href="#" class="btn-lupa" onclick="abrirLightbox(this)">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="form-adocao.html" class="btn-lupa"
+                ><i class="fa-solid fa-paw"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card animal cao">
+          <img src="bolinha.jpeg" alt="Bolinha" />
+          <div class="info-hover">
+            <h2>Bolinha</h2>
+            <p>
+              Bolinha é um companheirinho cheio de energia e carinho, sempre
+              pronto para uma brincadeira ou um abraço apertado. Com seu
+              jeitinho doce, ele vai conquistar seu coração e se tornar seu
+              melhor amigo para todas as horas. Venha conhecer o Bolinha e leve
+              para casa uma dose extra de alegria!
+            </p>
+            <div class="icones">
+              <a href="#" class="btn-lupa" onclick="abrirLightbox(this)">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="form-adocao.html" class="btn-lupa"
+                ><i class="fa-solid fa-paw"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card animal cao">
+          <img src="nina.jpeg" alt="Nina" />
+          <div class="info-hover">
+            <h2>Nina</h2>
+            <p>
+              Nina é uma fofura que derrete qualquer coração com seu jeitinho
+              meigo e tranquilo. Ela adora momentos de carinho e companheirismo,
+              pronta para encher sua vida de amor e alegrias. Venha conhecer a
+              Nina e faça dela sua nova melhor amiga!
+            </p>
+            <div class="icones">
+              <a href="#" class="btn-lupa" onclick="abrirLightbox(this)">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="form-adocao.html" class="btn-lupa"
+                ><i class="fa-solid fa-paw"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card animal cao">
+          <img src="lola.jpeg" alt="Lola" />
+          <div class="info-hover">
+            <h2>Lola</h2>
+            <p>
+              Lola é uma fofura que derrete qualquer coração com seu jeitinho
+              meigo e tranquilo. Ela adora momentos de carinho e companheirismo,
+              pronta para encher sua vida de amor e alegrias. Venha conhecer a
+              Lola e faça dela sua nova melhor amiga!
+            </p>
+            <div class="icones">
+              <a href="#" class="btn-lupa" onclick="abrirLightbox(this)">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="form-adocao.html" class="btn-lupa"
+                ><i class="fa-solid fa-paw"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card animal cao">
+          <img src="aluisio.jpeg" alt="Aluisio" />
+          <div class="info-hover">
+            <h2>Aluisio</h2>
+            <p>
+              Aluísio é aquele amigo leal e carinhoso que está sempre pronto
+              para fazer companhia e alegrar o seu dia. Com um temperamento
+              calmo e cheio de amor para dar, ele vai conquistar seu coração
+              rapidinho. Venha conhecer o Aluísio e traga para casa um
+              verdadeiro companheiro!
+            </p>
+            <div class="icones">
+              <a href="#" class="btn-lupa" onclick="abrirLightbox(this)">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="form-adocao.html" class="btn-lupa"
+                ><i class="fa-solid fa-paw"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card animal cao">
+          <img src="dim.jpeg" alt="Dim" />
+          <div class="info-hover">
+            <h2>Dim</h2>
+            <p>
+              Dim é aquele amigo leal e carinhoso que está sempre pronto para
+              fazer companhia e alegrar o seu dia. Com um temperamento calmo e
+              cheio de amor para dar, ele vai conquistar seu coração rapidinho.
+              Venha conhecer o Dim e traga para casa um verdadeiro companheiro!
+            </p>
+            <div class="icones">
+              <a href="#" class="btn-lupa" onclick="abrirLightbox(this)">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="form-adocao.html" class="btn-lupa"
+                ><i class="fa-solid fa-paw"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card animal cao">
+          <img src="joze.jpeg" alt="Joze" />
+          <div class="info-hover">
+            <h2>Joze</h2>
+            <p>
+              Joze é uma fofura que derrete qualquer coração com seu jeitinho
+              meigo e tranquilo. Ela adora momentos de carinho e companheirismo,
+              pronta para encher sua vida de amor e alegrias. Venha conhecer a
+              Joze e faça dela sua nova melhor amiga!
+            </p>
+            <div class="icones">
+              <a href="#" class="btn-lupa" onclick="abrirLightbox(this)">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="form-adocao.html" class="btn-lupa"
+                ><i class="fa-solid fa-paw"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card animal cao">
+          <img src="gil.jpeg" alt="Gil" />
+          <div class="info-hover">
+            <h2>Gil</h2>
+            <p>
+              Gil é aquele amigo leal e carinhoso que está sempre pronto para
+              fazer companhia e alegrar o seu dia. Com um temperamento calmo e
+              cheio de amor para dar, ele vai conquistar seu coração rapidinho.
+              Venha conhecer o Gil e traga para casa um verdadeiro companheiro!
+            </p>
+            <div class="icones">
+              <a href="#" class="btn-lupa" onclick="abrirLightbox(this)">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="form-adocao.html" class="btn-lupa"
+                ><i class="fa-solid fa-paw"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card animal cao">
+          <img src="toby.jpeg" alt="Toby" />
+          <div class="info-hover">
+            <h2>Toby</h2>
+            <p>
+              Toby é aquele amigo leal e carinhoso que está sempre pronto para
+              fazer companhia e alegrar o seu dia. Com um temperamento calmo e
+              cheio de amor para dar, ele vai conquistar seu coração rapidinho.
+              Venha conhecer o Toby e traga para casa um verdadeiro companheiro!
+            </p>
+            <div class="icones">
+              <a href="#" class="btn-lupa" onclick="abrirLightbox(this)">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="form-adocao.html" class="btn-lupa"
+                ><i class="fa-solid fa-paw"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card animal cao">
+          <img src="heloisa.jpeg" alt="Heloisa" />
+          <div class="info-hover">
+            <h2>Heloisa</h2>
+            <p>
+              Heloisa é uma fofura que derrete qualquer coração com seu jeitinho
+              meigo e tranquilo. Ela adora momentos de carinho e companheirismo,
+              pronta para encher sua vida de amor e alegrias. Venha conhecer a
+              Helosia e faça dela sua nova melhor amiga!
+            </p>
+            <div class="icones">
+              <a href="#" class="btn-lupa" onclick="abrirLightbox(this)">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="form-adocao.html" class="btn-lupa"
+                ><i class="fa-solid fa-paw"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card animal cao">
+          <img src="sheik.jpeg" alt="Sheike" />
+          <div class="info-hover">
+            <h2>Sheike</h2>
+            <p>
+              Sheike é aquele amigo leal e carinhoso que está sempre pronto para
+              fazer companhia e alegrar o seu dia. Com um temperamento calmo e
+              cheio de amor para dar, ele vai conquistar seu coração rapidinho.
+              Venha conhecer o Sheike e traga para casa um verdadeiro
+              companheiro!
+            </p>
+            <div class="icones">
+              <a href="#" class="btn-lupa" onclick="abrirLightbox(this)">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="form-adocao.html" class="btn-lupa"
+                ><i class="fa-solid fa-paw"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card animal cao">
+          <img src="frajola.jpeg" alt="Frajola" />
+          <div class="info-hover">
+            <h2>Frajola</h2>
+            <p>
+              Frajola é aquele amigo leal e carinhoso que está sempre pronto
+              para fazer companhia e alegrar o seu dia. Com um temperamento
+              calmo e cheio de amor para dar, ele vai conquistar seu coração
+              rapidinho. Venha conhecer o Frajola e traga para casa um
+              verdadeiro companheiro!
+            </p>
+            <div class="icones">
+              <a href="#" class="btn-lupa" onclick="abrirLightbox(this)">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="form-adocao.html" class="btn-lupa"
+                ><i class="fa-solid fa-paw"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gatos -->
+        <div class="card animal gato" style="display: none">
+          <img src="cat1.jpeg" alt="Gato 1" />
+          <div class="info-hover">
+            <h2>Gato 1</h2>
+            <p>Descrição do gato 1.</p>
+            <div class="icones">
+              <a href="#" class="btn-lupa" onclick="abrirLightbox(this)">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="form-adocao.html" class="btn-lupa"
+                ><i class="fa-solid fa-paw"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card animal gato" style="display: none">
+          <img src="cat2.jpeg" alt="Gato 2" />
+          <div class="info-hover">
+            <h2>Gato 2</h2>
+            <p>Descrição do gato 2.</p>
+            <div class="icones">
+              <a href="#" class="btn-lupa" onclick="abrirLightbox(this)">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="form-adocao.html" class="btn-lupa"
+                ><i class="fa-solid fa-paw"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card animal gato" style="display: none">
+          <img src="cat3.jpeg" alt="Gato 3" />
+          <div class="info-hover">
+            <h2>Gato 3</h2>
+            <p>Descrição do gato 3.</p>
+            <div class="icones">
+              <a href="#" class="btn-lupa" onclick="abrirLightbox(this)">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="form-adocao.html" class="btn-lupa"
+                ><i class="fa-solid fa-paw"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card animal gato" style="display: none">
+          <img src="cat4.jpeg" alt="Gato 4" />
+          <div class="info-hover">
+            <h2>Gato 4</h2>
+            <p>Descrição do gato 4.</p>
+            <div class="icones">
+              <a href="#" class="btn-lupa" onclick="abrirLightbox(this)">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="form-adocao.html" class="btn-lupa"
+                ><i class="fa-solid fa-paw"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card animal gato" style="display: none">
+          <img src="cat5.jpeg" alt="Gato 5" />
+          <div class="info-hover">
+            <h2>Gato 5</h2>
+            <p>Descrição do gato 5.</p>
+            <div class="icones">
+              <a href="#" class="btn-lupa" onclick="abrirLightbox(this)">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="form-adocao.html" class="btn-lupa"
+                ><i class="fa-solid fa-paw"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+      <div class="footer-newsletter">
+        <h3>Se inscreva na nossa newsletter!</h3>
+        <form>
+          <input type="email" placeholder="Seu E-mail" required />
+          <button type="submit">Assinar</button>
+        </form>
+      </div>
+
+      <div class="footer-topbar">
+        <a href="mailto:contato@amparanimal.org.br" class="footer-email">
+          <i class="fas fa-envelope"></i> ass.novocaminho@hotmail.com
+        </a>
+        <div class="footer-social">
+          <a
+            href="https://www.instagram.com/ong.novocaminho/"
+            aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/novo.caminho.batatais/?locale=pt_BR"
+            aria-label="Facebook"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="footer-main">
+        <div class="footer-logo-text">
+          <div class="footer-logo">
+            <img src="Logo.jpg" alt="Logo ONG Novo Caminho" />
+          </div>
+          <p>
+            Organização sem fins lucrativos dedicada à proteção e cuidado de
+            animais em situação de vulnerabilidade. Atuamos na promoção do
+            bem-estar animal por meio de ações de resgate, acolhimento,
+            reabilitação e encaminhamento para adoção responsável. Comprometidos
+            com a transparência e a ética, buscamos parcerias e apoio para
+            ampliar nosso impacto social.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <div class="link-group">
+            <h4>NOVO CAMINHO</h4>
+            <ul>
+              <li><a href="index.html">Início</a></li>
+              <li><a href="index.html#sobre">Sobre</a></li>
+              <li><a href="index.html#adote">Adote</a></li>
+            </ul>
+          </div>
+
+          <div class="link-group">
+            <h4>Links úteis</h4>
+            <ul>
+              <li>
+                <a href="form-adocao.html">Formulário de Adoção</a>
+              </li>
+              <li>
+                <a href="form-voluntario.html">Formulário para Voluntários</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="link-group">
+            <h4>Como ajudar</h4>
+            <ul>
+              <li><a href="doacao.html">Doação</a></li>
+              <li><a href="form-voluntario.html">Ser voluntário</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          © 2025 | ONG Novo Caminho. Desenvolvido por João Henrique Nazar
+          Tavares e Rafael Mele Porto
+        </p>
+        <a href="privacidade.html" class="privacy-policy"
+          >Política de privacidade</a
+        >
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <div id="lightbox" class="lightbox" onclick="fecharLightbox(event)">
+      <div class="lightbox-content">
+        <img id="lightbox-img" src="" alt="Imagem ampliada" />
+        <p id="lightbox-caption"></p>
+      </div>
+    </div>
+  </body>
+</html>
