@@ -81,7 +81,7 @@ João Henrique Nazar Tavares
 ## Licença
 
 Este projeto é de uso acadêmico e social.
-Distribuído sob a licença MIT — veja o arquivo LICENSE para mais detalhes.
+Distribuído sob a licença Apache License 2.0 — veja o arquivo LICENSE para mais detalhes.
 
 ---
 
